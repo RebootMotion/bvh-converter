@@ -24,12 +24,12 @@ def open_csv(filename, mode='r'):
         return io.open(filename, mode=mode, newline='')
     
 
-def main():
+def main(raw_args=None):
     parser = argparse.ArgumentParser(
         description="Extract joint location and optionally rotation data from BVH file format.")
     parser.add_argument("filename", type=str, help='BVH file for conversion.')
     parser.add_argument("-r", "--rotation", action='store_true', help='Write rotations to CSV as well.')
-    args = parser.parse_args()
+    args = parser.parse_args(raw_args)
 
     file_in = args.filename
     do_rotations = args.rotation
