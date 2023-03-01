@@ -3,3 +3,4 @@
 
 # bvhplayer_skeleton.py: 6
 numpy >= 1.11.2
+pandas

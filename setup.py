@@ -9,7 +9,7 @@ def get_requirements():
 
 setup(
     name='bvh-converter',
-    version='1.0.3',
+    version='1.0.4',
     packages=['bvh_converter'],
     url='',
     license='',
