@@ -1,0 +1,1 @@
+git+https://github.com/RebootMotion/bvh-converter.git@v1.0.4#egg=bvh_converter
